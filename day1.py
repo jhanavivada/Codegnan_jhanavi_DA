@@ -1,0 +1,6 @@
+print("Hello")
+print("My name is Jhanavi")
+print("I completed my bteck in Sri Padmavati Mahila Visvavidyalayam")
+print("My age is 22")
+print("I am currently pursuing a course in Codegnan")
+print("--------------------------------------------")

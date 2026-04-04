@@ -49,7 +49,97 @@ if fact_all == per_num:
    print(f"{per_num} is the perfect num")
 else:
     print(f"{per_num} is not a perfect num")
-              
-'''
+count():-
+------
+text = "python programming"
 
-        
+print("Count of 'p':", text.count('p'))
+
+capitalize():-
+------------
+text = "python is easy"
+print(text.capitalize())
+
+isdecimal():-
+----------
+num = "12345"
+print(num.isdecimal())
+
+join():-
+-----
+words = ["Python", "is", "fun"]
+result = " ".join(words)
+print(result)
+
+casefold():-
+---------
+text = "PYTHON"
+print(text.casefold())
+
+strip():-
+-------
+
+text = " hello python   "
+print(text.strip())
+
+isalnum():-
+---------
+text = "Python123"
+print(text.isalnum())
+
+isupper():-
+-------
+text = "HELLO"
+print(text.isupper())
+
+replace():-
+--------
+text = "I like Java"
+print(text.replace("Java", "Python"))
+
+isalpha():-
+--------
+text = "Python"
+print(text.isalpha())
+
+split():-
+-------
+text = "Python is easy"
+print(text.split())
+
+isdigit():-
+--------
+num = "1234"
+print(num.isdigit())
+break---> this is used to exit from the loop, when we found the required value...
+eg:
+for j in range(1,10):
+    print(j)
+    if j == 5:
+        break
+
+lis_ = [8,11,19,26,]
+for n in lis_:
+    print(n)
+    if n == 1:
+        break
+
+continue--->        
+
+for j in range(1,10):
+    if j == 5:
+        continue
+    print(j)
+
+lis_ = [8,11,19,26,]
+for n in lis_:
+    if n == 11:
+        continue
+    print(n)
+pass---> this is called as space holder , incase any statement like (if, for, else, elif...)this should be
+         complete, if not we will get indentation error to avoid this we are using pass
+'''
+for j in range(1,100):
+    pass
+
+

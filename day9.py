@@ -56,15 +56,6 @@ for v in range (user_in+1):
     num_1 = num_2
     num_2 = num_3
     print(num_3,end =" ")
-'''
-
-
-
-
-
-
-
-
 
 
 

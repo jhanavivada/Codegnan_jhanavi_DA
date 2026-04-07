@@ -54,15 +54,39 @@ differeent b/w (==), (is) operator:-
 a = [1,2]
 b = [1,2]
 print(a == b)
-'''
+
 a = [1,2]
 b = [1,2]
 c = b
 print(id(c),id(b))
 print(c is b)    
 
+count of words in a sentances:-
 
+group = "python is the programing language"
+words = group.split() 
+count = len(words)
+print("No of words:", count)
 
+Compound Interest:-
+
+princal = 1000
+rate = 5
+time = 2
+CI = princal * (1 + rate/100) ** time - princal
+print("Compound Interest =", CI)
+
+syntax errors:
+-------------
+1)print("python language"
+  always close with bracket ()
+
+2)def prime_check(Num,k)
+   statement must end with proper colon (:)
+
+3) for [::-1] two bracket must be closed
+
+4)
 
 
 

@@ -6,19 +6,27 @@ itself either directly or indirectly to solve a problem by breaking it into smal
 Recursion is especially useful for problems that can be  divided into identical smaller tasks,
 such as mathematical calculations, tree traversals or divide-and-conquer algorithms.
 
-def vaildate_pin(self):
-    while self.remaining_attempts > 0:
-        user_pin = input("enter 4 digit PIN:")
-        if len(user_pin)== 4 and user_pin == self.user_info["ATM PIN"]:
-           print(" Welcome to the ATM")
-           return True
-        else:
-            self.remaining_attempts -=1
-            if self.remaining_attempts > 0:
-                print(f"Invalid Pin. Attempts left: {sel:self.remaining}")
+class ATM:
+    def __init__(self):
+        self.remaining_attempts = 3
+        self.user_info = {"ATM PIN": "1119"}
+
+    def validate_pin(self):
+        while self.remaining_attempts > 0:
+            user_pin = input("Enter 4 digit PIN: ")
+
+            if len(user_pin) == 4 and user_pin == self.user_info["ATM PIN"]:
+                print("Welcome to the ATM")
+                return True
             else:
-                print("card blocked. please contact customer care")
-                return false
+                self.remaining_attempts -= 1
+                if self.remaining_attempts > 0:
+                    print(f"Invalid Pin. Attempts left: {self.remaining_attempts}")
+                else:
+                    print("Card blocked. Please contact customer care")
+                    return False
+obj = ATM()
+obj.validate_pin()   
  
 any = "I completed my b.tect in ECE"
 vowel_word = []
@@ -52,6 +60,7 @@ def prime_check(numbers, prime_list, non_prime_list):
     print(f"{prime_list} these are prime numbers in the list")
 prime_check(numbers, prime_list, non_prime_list)
 '''
+             
 
 
 

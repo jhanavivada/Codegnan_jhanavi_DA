@@ -34,6 +34,10 @@ This is only for internal use
   -------
 SYNTAX:- __name
 This one is restricted
+
+self:-
+----
+This keyword is instances variable and unique for each object
 '''
 class some:
     def __init__(self):

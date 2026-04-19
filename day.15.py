@@ -32,8 +32,9 @@ for val in square(7):
 def add(n):
     for i in range(n):
         yield i + 10
-for val in add(50):
+for val in add(5):
     print(val)
+    
 
 
 

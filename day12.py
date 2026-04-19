@@ -51,12 +51,13 @@ keyword argument:-
 ----------------
 
 def any(cat,an,bog):
-    print(f"an = {an},bog = {bog},cat = {cat}")
-any(cat = 0,an = 11,bog = 19)
+    print(f"an = {an},dog = {dog},cat = {cat}")
+any(cat = 0,an = 11,dog = 19)
 
 variable length arguments:-
 -------------------------
- adding a (*) before the parameter name in the function, receive a tuple of argument and can acces index '''
+ adding a (*) before the parameter name in the function, receive
+ a tuple of argument and can acces index '''
 
 def pink(*colour):
     print(colour[1])

@@ -39,7 +39,7 @@ methods = child()
 methods.display()
 
 Ex Multiple Inheritance:-
-'''
+
 class Father:
     def skill_1(self):
         print("Father: Focused")
@@ -53,7 +53,28 @@ relation = Child()
 relation.skill_1()
 relation.skill_2()
 relation.All_skills()
-
+'''
+class person:
+    def name(self):
+        print("name: janu")
+class address:
+    def addr(self):
+        print("address: AP")
+class contact:
+    def mobile(self):
+        print("mobile: 8967452301")
+class dob:
+    def date(self):
+        print("dob: 11-08-2003")
+class adhar(person,address,contact,dob):
+    def adhar_no(self):
+        print("adhar number: 1119 0811 1903")
+date=adhar()
+data.name()
+data.addr()
+data.mobile()
+data.date()
+data.adhar_no()
 
 
 

@@ -1,5 +1,4 @@
 '''
-
 File Handling---> fille handler is an object of file to maintain several functions of file such as creating,   
 reading, writing and update also deleting the file
 How to open a file

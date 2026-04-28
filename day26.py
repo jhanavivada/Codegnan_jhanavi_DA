@@ -94,10 +94,46 @@ print(satya)
 
 6.+:-
 This meta charater will form a searchig pattern as it will take any one or more character for (+)
-syntax:- re.findall(".+",variable_name)'''
+syntax:- re.findall(".+",variable_name)
+
 import re
 janu = "This is meta used to find the string is ending with the sequence or not"
 jhanavi = re.findall("s.+e",janu)
 satya = re.search("T.+",janu)
 print(jhanavi)
 print(satya)
+
+7. ?:-
+-->This metha character will form a searching pattern as it will take any zero or one character for (?)
+syntax:- re.findall(".?",variable_name)
+
+import re
+any ="This is meta used to find the string is ending with the sequence or not"
+an = re.findall("This.?",any)
+has = re.search("This.?",any)
+print(an)
+print(has)
+
+8.{}:-
+-->This meta character will form a searching pattern as we mention the size in the {}
+import re
+syntax:- re.findall(".{size}",variable_name)
+
+import re
+any ="This is meta used to find the string is ending with the sequence or not"
+an = re.findall("This.{11}",any)
+has = re.search("This.{8}",any)
+print(an)
+print(has)
+
+9. | :-
+-->this meta character will form a searching pattern as it consider
+right or left any string is present or not for (|)
+syntax:- re.findall("string|string",variable_name)
+'''
+import re
+any ="This is meta used to find the string is ending with the sequence or not"
+an = re.findall("this|not",any)
+has = re.search("this|to",any)
+print(an)
+print(has)

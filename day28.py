@@ -61,13 +61,34 @@ pit.plot(x,y)
 pit.show()
 
 import matplotlib.pyplot as pip
-pip.bar(["Week1","Week2","Week3","Week4"],[0,0,10,16])
+pip.bar(["Week1","Week2","Week3","Week4"],[10,12,16,18])
 pip.show()
 
 import matplotlib.pyplot as pip
-pip.pie([0,0,10,16], labels = ["Week1","Week2","Week3","Week4"])
+pip.pie([10,12,16,18], labels = ["Week1","Week2","Week3","Week4"])
 pip.show()
-'''
+
 import matplotlib.pyplot as pip
 pip.hist([23,15,78,12])
 pip.show()
+
+
+import matplotlib.pyplot as pip
+pip.bar([2000,2001,2002,2003],[34,23,56,76],color = "pink" )
+pip.title("Bike sales")
+pip.xlabel("Years")
+pip.ylabel("No.of.sales")
+pip.show()
+
+import matplotlib.pyplot as plp
+plp.pie([40,15,35,20],labels=["Backend(Python)","Frontend(HTML,CSS)","Database(MySQL)","Testing"])
+plp.title("ATM Application(Project)")
+plp.legend(["Janu","Jhanavi","Satya","Honey"])
+plp.show()
+
+import matplotlib.pyplot as plp
+plp.scatter([2023,2024,2025,2026],[67,89,50,66], color="Pink", s=500)
+plp.title("Bike Sales")
+plp.xlabel("Years")
+plp.ylabel("Number of bikes sold")
+plp.show()
